@@ -1,5 +1,4 @@
-(async () => {
-  try {
+try {
     const chalk = await import("chalk");
     const { makeWASocket } = await import("@whiskeysockets/baileys");
     const qrcode = await import("qrcode-terminal");
